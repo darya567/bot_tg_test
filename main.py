@@ -14,7 +14,7 @@ dp = Dispatcher()
 async def cmd_start(message: Message):
     await message.reply('Привет!')
     await message.answer_photo(photo='https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/97/1d/72/caption.jpg',
-                               caption='Классный ресторан астория\nОн крут. ')
+                               caption='Кафе плохое!\nНе рекомендую. ')
 
 
 @dp.message(Command('help'))
